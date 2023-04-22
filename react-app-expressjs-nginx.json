@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name": "react-app-expressjs-nginx",
+            "script": "node server.js",
+            "args" : "start"
+        }
+    ]
+}
