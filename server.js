@@ -13,6 +13,7 @@ app.use(express.static(root));
 
 app.use('/*', (req, res) => {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
+  console.log("request called!!");
 });
 
 // start express server on port 5000
